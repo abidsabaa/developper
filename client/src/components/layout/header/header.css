@@ -1,0 +1,16 @@
+#home .navbar-transparent {
+    background: none !important;
+    box-shadow: none;
+  }
+  
+  #home .navbar {
+    transition: 200ms ease-in !important;
+  }
+  
+  #home .bg-primary {
+    background-color: rgb(41, 75, 128) !important;
+  }
+  
+  #home img {
+    width: 25px;
+  }

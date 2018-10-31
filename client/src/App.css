@@ -1,0 +1,26 @@
+.App {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr, 1fr, 1fr;
+  grid-template-areas:
+    "header header header"
+    "landing landing landing"
+    "footer footer footer";
+}
+.navbar {
+  grid-area: header;
+  position: fixed;
+  z-index: 1000;
+}
+.landing {
+  grid-area: landing;
+}
+.footer {
+  grid-area: footer;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
